@@ -9,7 +9,7 @@ const onSubmit = (values, actions ) => {
   
   actions.resetForm();
 };
-await new Promise((resolve)=> setTimeout(resolve, 1000));
+
 
 
 export function BasicForm() {
